@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+
+<head>
+    <title> Tylers Very cool website</title>
+    <style>
+        body {
+            background: rgb(80, 230, 11);
+            color: rgb(1, 0, 0);
+            padding: 10px;
+            font-family: arial;
+        }
+
+        #all-contents {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* navigation menu */
+        nav {
+            background: rgb(239, 80, 41);
+            margin: 0 auto;
+            margin-bottom: 20px;
+            display: flex;
+            padding: 10px;
+            border-color:aquamarine;
+            border: radius 100px;
+        }
+
+        h1 {
+            display: flex;
+            align-items: center;
+            color: white;
+            flex: 1;
+            margin: 0;
+        }
+
+        #nav-ul {
+            list-style-image: none;
+        }
+
+        .nav-li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* main container area beneath menu */
+        main {
+            background: rgb(245, 238, 219);
+            display: flex;
+        }
+
+        .sidebar {
+            margin-right: 25px;
+            padding: 10px;
+        }
+
+        .sidebar-img {
+            width: 200px;
+        }
+
+        .content {
+            flex: 1;
+            padding: 15px;
+        }
+
+        #interests {
+            border: 4px silver ridge;
+            padding: 8px;
+        }
+
+        h2,
+        h3 {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- All content goes here -->
+    <div id="all-contents">
+        <nav>
+            <h1>Tylers Scrumptoius Website</h1>
+            <ul id="nav-ul">
+                <li class="nav-li">
+                    <a href="index.html"> Home </a>
+                </li>
+                <li class="nav-li">
+                    <a href="portfolio.html"> Portfolio </a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <!-- Sidebar section -->
+            <div class="sidebar">
+                <img class="sidebar-img"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyZ7vFSjp-ey5cWCHVUOdfA0kMkmOfPsmShg:https://media.gamestop.com/i/gamestop/11205495/Funko-POP-Marvel-Studios-Ant-Man-and-The-Wasp-Quantumania--M.O.D.O.K.-4.54-in-Vinyl-Bobblehead&usqp=CAU">
+            </div>
+            <!-- Content section -->
+            <div class="content">
+                <h2>
+                    Tyler Jallans
+                </h2>
+                <p>
+                    Hello i like coding stuff somtimes
+                </p>
+                <!-- Interests section -->
+                <div id="interests">
+                    <h3> Interest </h3>
+                    <ul id="nav-ul">
+                        <li class="nav-li"> Funko pops </li>
+                        <li class="nav-li"> Nintendo </li>
+                        <li class="nav-li"> Star wars </li>
+                    </ul>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+
+</html>
