@@ -1,0 +1,106 @@
+body {
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXjXTQ08ig2Q-A1StKOmXL4sTVZ5ArhhF5FC5q_-Cfoylm6p6bzUbWoYoxLDFSp0-v8uw:https://thumbs.dreamstime.com/b/september-art-super-mario-bros-classic-video-game-pixel-design-vector-illustration-platform-developed-published-197566288.jpg&usqp=CAU");
+    color: rgb(1, 0, 0);
+    padding: 10px;
+    font-family: arial;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+    
+}
+h2{
+    text-decoration-color: white;
+    color:whitesmoke;
+    
+}
+p{
+    color:whitesmoke;
+}
+
+#all-contents {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* navigation menu */
+nav {
+    background-color: teal;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px;
+    border-color:aquamarine;
+    border: radius 30px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    flex: 1;
+    margin: 0;
+}
+
+#nav-ul {
+    list-style-image: none;
+}
+
+.nav-li {
+    display: inline-block;
+    padding: 0 10px;
+    color:rgb(0, 203, 203);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* main container area beneath menu */
+main {
+    background: rgb(245, 238, 219);
+    display: flex;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUSsP_tUrY7rs7SuYVSfIUtycCwl8OwwSQlE2kNzpXGdKRAlAnYElFEaW3PIxf3s4fMQU:https://images.pond5.com/star-wars-abstract-leap-hyperspace-footage-130046156_iconl.jpeg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    border-radius: 50px;
+    border-style:ridge;
+}
+
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+    width: 200px;
+}
+
+.sidebar-img {
+    width: 200px;
+    border-radius: 50px;
+}
+
+.content {
+    flex: 1;
+    padding: 15px;
+    border-radius: 50px;
+    
+}
+
+#interests {
+    border: 4px silver ridge;
+    padding: 8px;
+    background-color:teal;
+    border-radius: 30px;
+}
+
+h2,
+h3 {
+    margin: 0px;
+}
+
+.linkstyle{
+    color: rgb(0, 0, 0);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
