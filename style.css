@@ -1,7 +1,7 @@
 body {
 
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXjXTQ08ig2Q-A1StKOmXL4sTVZ5ArhhF5FC5q_-Cfoylm6p6bzUbWoYoxLDFSp0-v8uw:https://thumbs.dreamstime.com/b/september-art-super-mario-bros-classic-video-game-pixel-design-vector-illustration-platform-developed-published-197566288.jpg&usqp=CAU");
-    color: rgb(1, 0, 0);
+    color: white;
     padding: 10px;
     font-family: arial;
     background-repeat:no-repeat;
@@ -103,4 +103,32 @@ h3 {
     color: rgb(0, 0, 0);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
+}
+.content h1 {
+    color:black;
+}
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: teal;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color:aqua;
+}
+
+#portfolio li:hover {
+    background: green;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color:ghostwhite;
+}
+
+.white{
+    color:white;
 }
