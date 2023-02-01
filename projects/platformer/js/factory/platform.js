@@ -15,5 +15,7 @@
             return platform;
         }
         opspark.platform.create = create;
+        
     };
-})(window);
+})(window);createPlatform(500, 300, 200, 20);
+
