@@ -22,7 +22,7 @@
                     
                 case 'grace':
                 case 'kennedi':
-                    collectable.scale.x = collectable.scale.y = 0.9;
+                    collectable.scale.x = collectable.scale.y = 0.5;
                     break;
                 
                 default:

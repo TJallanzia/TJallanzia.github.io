@@ -39,9 +39,17 @@
     // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
 
     // example:
-    createCollectable(type.steve, 200, 170, 6, 0.7);
-    createCollectable(type.grace, 500, 300, );
-    createCollectable(type.kennedi, 600, 70, );
+    var value1 = Math.random() * 500;
+    var value2 = Math.random() * 500;
+    var value3 = Math.random() * 500;
+    var value4 = Math.random() * 500;
+    var value5 = Math.random() * 500;
+    var value6 = Math.random() * 500;
+    var value7 = Math.random() * 500;
+    var value8 = Math.random() * 500;
+    createCollectable(type.steve, value1, value2, 0.7);
+    createCollectable(type.grace, value3, value4, );
+    createCollectable(type.kennedi, value5, value6, );
 
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
