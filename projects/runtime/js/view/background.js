@@ -54,15 +54,17 @@ var background = function (window) {
             background.addChild(moon);
 
            for (var i = 0; i < 100; i++ ){
-            var circle = bracket.png
+            var circle = draw.bitmap("img/bracket.png")
             circle.x = canvasWidth * Math.random();
             circle.y = groundY * Math.random();
+            circle.scaleX = 1.0;
+            circle.scaleY = .5;
             background.addChild(circle);
            }
-
+        
             // TODO 4: Part 1 - Add buildings!     Q: This is before TODO 4 for a reason! Why?
             for (var i = 0; i < 5; ++i) {
-                var buildingHeight = 300;
+                var buildingHeight = (Math.random()* 100) +200;
                 var building = draw.rect(75, buildingHeight, "LightGray", "Black", 1);
                 building.x = 200 * i;
                 building.y = groundY - buildingHeight;
@@ -72,7 +74,7 @@ var background = function (window) {
             
             // TODO 3: Part 1 - Add a tree
             
-           /* tree = draw.bitmap("img/classroom.jpg");
+           tree = draw.bitmap("img/classroom.jpg");
              tree.x = 0;
              tree.y = 0;
              tree.scaleX = 1.4;
@@ -85,7 +87,7 @@ var background = function (window) {
             tree2.scaleX = 1.4;
             tree2.scaleY = 1.4;
             background.addChild(tree2); 
-            */
+            
         } // end of render function - DO NOT DELETE
         
         
@@ -110,7 +112,14 @@ var background = function (window) {
 }
             
             // TODO 4: Part 2 - Parallax
-            
+        for (var i = 0; i < buildings.length; i++){
+            var eachElement = buildings[i];
+            eachElement.x =eachElement.x-2;
+
+            if (eachElement.x < -200){
+                eachElement.x = canvasWidth;
+            }
+        }
 
         } // end of update function - DO NOT DELETE
         
