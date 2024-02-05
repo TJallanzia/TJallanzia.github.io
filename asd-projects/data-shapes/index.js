@@ -42,7 +42,7 @@ $(document).ready(function () {
   var shape = {
     color : "blue",
     shape : "circle",
-    repeat : 8
+    repeat : 3
   }
   dataShapes.push (shape)
 
@@ -74,7 +74,7 @@ $(document).ready(function () {
 
   // TODO 5-a: add a function that handles the bad display type
   function handleBad(data, repeat){
-    repeat=repeat++;
+    repeat++;
     setBackgroundWithMixed(data, repeat);
     animationDetails.displayType = 3
   }
