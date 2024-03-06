@@ -69,6 +69,7 @@ var walker = {
     }
     
   }
+  //handles the key going up
   function handleKeyUp(event){
     walker.speedX = 0;
     walker.speedY=0;
